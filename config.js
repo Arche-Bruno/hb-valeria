@@ -112,7 +112,7 @@ const CONFIG = {
   },
 {
   type: "closing",
-text: "Si quieres verlo de nuevo, dale clic mi amor :)",
+text: "Si quieres verlo de nuevo, dale clic mi amor. Te mando un beso desde la chamba!! :)",
 },
 ],
 };
