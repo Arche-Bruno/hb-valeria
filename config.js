@@ -56,7 +56,7 @@ const CONFIG = {
   {
     type: "greeting",
     title: "Hola",
-    subtitle: "¡Por cierto, me gusta mucho ese nombre!",
+    subtitle: "¡Por cierto amor, me gusta mucho ese nombre!",
   },
   {
     type: "countdown",
