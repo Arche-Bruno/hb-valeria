@@ -78,7 +78,7 @@ const CONFIG = {
     lines: [
       "Eso es lo que iba a hacer.",
       "Pero luego me detuve.",
-      "Me di cuenta de que quería hacer algo <strong>especial</strong>.",
+      "Me di cuenta de que quería hacer algo un poco <strong>especial</strong>.",
       "Porque,",
       "Tú eres especial <span>:)</span>",
     ],
@@ -112,7 +112,7 @@ const CONFIG = {
   },
 {
   type: "closing",
-text: "Si quieres verlo de nuevo, dale clic mi amor. Te mando un beso desde la chamba!! :)",
+text: "Espero te haya gustado chinita. Te mando un beso desde aquí :)",
 },
 ],
 };
