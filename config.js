@@ -112,7 +112,7 @@ const CONFIG = {
   },
 {
   type: "closing",
-text: "Espero te haya gustado chinita. Te mando un beso desde aquí :)",
+text: "Espero que te haya gustado, chinita. Estoy muy orgulloso de ti por todo lo que estás logrando y por cada reconocimiento que vas alcanzando. Te mando un beso desde aquí :)",
 },
 ],
 };
