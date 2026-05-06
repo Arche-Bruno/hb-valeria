@@ -100,7 +100,7 @@ const CONFIG = {
   {
     type: "profile",
     wishTitle: "¡Feliz cumpleaños mi amor!",
-   wishText: "Y recuerda que siempre serás la mejor 💖",
+   wishText: "Y recuerda que siempre serás la mejor ❤️",
   },
   {
     type: "fireworks",
@@ -112,7 +112,7 @@ const CONFIG = {
   },
 {
   type: "closing",
-text: "Hola cariño… la verdad no sabía cómo empezar jaja, pero quería decirte algo 💖. Desde hace tiempo ya pensaba en ti, incluso cuando ni hablábamos. Y míranos ahora… todo se dio de una forma bien curiosa. Hemos pasado por varias cosas, buenas y no tan buenas, pero igual seguimos aquí. Me gusta mucho lo que estamos construyendo y quiero seguir haciendo cosas contigo. Estoy muy orgulloso de ti y de todo lo que logras. Te amo mucho, te mando un beso desde la chamba jaja ❤️. Si quieres verlo de nuevo, dale clic :)",
+text: "Si quieres verlo de nuevo, dale clic mi amor :)",
 },
 ],
 };
