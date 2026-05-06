@@ -450,7 +450,7 @@ body {
   background: rgba(0, 0, 0, 0.55);
   border-radius: 20px;
 
-  backdrop-filter: blur(45px);
+  backdrop-filter: blur(75px);
   box-shadow: 0 10px 30px rgba(0,0,0,0.35);
  
   width: 100%; /* 👈 limita ancho y mejora lectura */
